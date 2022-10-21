@@ -1,0 +1,5 @@
+HOMESERVER_URL = "https://matrix.elokapina.fi"
+USERNAME = "vuoreol"
+PASSWORD = "Shohp8sa!"
+ELEMENT_URL = "https://chat.elokapina.fi"
+DEVICE_DISPLAY_NAME = "ELOKAPINA"
