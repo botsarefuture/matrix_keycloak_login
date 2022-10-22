@@ -13,7 +13,7 @@ response = get_third(BeautifulSoup(response.text, features="lxml").body.find('fo
 response = get_fourth(response.headers["Location"])
 token = response.headers["Location"].split("loginToken=")[1].replace("#/", "")
 
-login_data = login(TOKEN).json()
+login_data = login(token).json()
 
 access_token = login_data["access_token"]
 

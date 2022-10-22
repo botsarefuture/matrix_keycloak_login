@@ -1,4 +1,4 @@
-from settings import ELEMENT_URL, HOMESERVER_URL, USERNAME, PASSWORD
+from settings import ELEMENT_URL, HOMESERVER_URL, USERNAME, PASSWORD, DEVICE_DISPLAY_NAME
 import requests
 
 SESSION = requests.Session()
